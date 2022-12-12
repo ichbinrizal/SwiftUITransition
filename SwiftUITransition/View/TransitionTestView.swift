@@ -1,6 +1,6 @@
 //
-//  SwiftUIView.swift
-//  SwiftUITransition
+//  TransitionTestView.swift
+//  TransitionTest
 //
 //  Created by Rizal on 12/12/22.
 //
@@ -47,7 +47,7 @@ struct TransitionTestView: View {
 }
 
 // Mark: View
-struct SwiftUIView_Previews: PreviewProvider {
+struct TransitionTestView_Previews: PreviewProvider {
     static var previews: some View {
         TransitionTestView()
     }

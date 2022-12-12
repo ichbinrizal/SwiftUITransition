@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48A5CAF529471B000004CD46 /* cardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5CAF429471B000004CD46 /* cardsView.swift */; };
+		48A5CAF729472A5C0004CD46 /* TransitionTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A5CAF629472A5C0004CD46 /* TransitionTestView.swift */; };
 		48E025F42944381900F97CA6 /* SwiftUITransitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E025F32944381900F97CA6 /* SwiftUITransitionApp.swift */; };
 		48E025F62944381900F97CA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E025F52944381900F97CA6 /* ContentView.swift */; };
 		48E025F82944381B00F97CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E025F72944381B00F97CA6 /* Assets.xcassets */; };
 		48E025FB2944381B00F97CA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E025FA2944381B00F97CA6 /* Preview Assets.xcassets */; };
+		48E026032944387E00F97CA6 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E026022944387E00F97CA6 /* CardViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48A5CAF429471B000004CD46 /* cardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardsView.swift; sourceTree = "<group>"; };
+		48A5CAF629472A5C0004CD46 /* TransitionTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionTestView.swift; sourceTree = "<group>"; };
 		48E025F02944381900F97CA6 /* SwiftUITransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E025F32944381900F97CA6 /* SwiftUITransitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITransitionApp.swift; sourceTree = "<group>"; };
 		48E025F52944381900F97CA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48E025F72944381B00F97CA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48E025FA2944381B00F97CA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		48E026022944387E00F97CA6 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48A5CAF129471A990004CD46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48A5CAF429471B000004CD46 /* cardsView.swift */,
+				48A5CAF629472A5C0004CD46 /* TransitionTestView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		48E025E72944381900F97CA6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +66,8 @@
 		48E025F22944381900F97CA6 /* SwiftUITransition */ = {
 			isa = PBXGroup;
 			children = (
+				48E026012944385C00F97CA6 /* Model */,
+				48A5CAF129471A990004CD46 /* View */,
 				48E025F32944381900F97CA6 /* SwiftUITransitionApp.swift */,
 				48E025F52944381900F97CA6 /* ContentView.swift */,
 				48E025F72944381B00F97CA6 /* Assets.xcassets */,
@@ -65,6 +82,14 @@
 				48E025FA2944381B00F97CA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48E026012944385C00F97CA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48E026022944387E00F97CA6 /* CardViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +164,9 @@
 			files = (
 				48E025F62944381900F97CA6 /* ContentView.swift in Sources */,
 				48E025F42944381900F97CA6 /* SwiftUITransitionApp.swift in Sources */,
+				48A5CAF529471B000004CD46 /* cardsView.swift in Sources */,
+				48E026032944387E00F97CA6 /* CardViewModel.swift in Sources */,
+				48A5CAF729472A5C0004CD46 /* TransitionTestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
